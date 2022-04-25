@@ -1,0 +1,8 @@
+# Azure Container Registry
+Azure Container Registry is a managed, private Docker registry service based on the open-source Docker Registry 2.0.Key features
+* Registry service tiers - [Basic, Standard, and Premium](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-skus). [Geo-replication](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-geo-replication) feature of Premium registries supports advanced replication and container image distribution scenarios.
+* Access Control - transfers container images over HTTPS, and supports TLS to secure client connections. Azure role-based access control (Azure RBAC) to assign users or systems fine-grained permissions to a registry. 
+* Security - Premium service tier include [content trust](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-content-trust) for image tag signing, and [firewalls and virtual networks (preview)](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-vnet) to restrict access to the registry. Microsoft Defender for Cloud optionally integrates with Azure Container Registry to [scan images](https://docs.microsoft.com/en-us/azure/security-center/defender-for-container-registries-introduction?bc=/azure/container-registry/breadcrumb/toc.json&toc=/azure/container-registry/toc.json) whenever an image is pushed to a registry.
+
+## Concepts & features
+* [Geo-Replication](concepts/geo-replication.md)
